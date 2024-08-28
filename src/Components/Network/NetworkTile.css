@@ -1,0 +1,55 @@
+.network_card {
+    width: 170px;
+    height: auto;
+    margin: 6px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .15);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.network_card:hover {
+    transform: scale(1.05);
+}
+
+.network_card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.network_details {
+    padding: 10px 0;
+    background-color: #3c948b;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align the heart */
+}
+
+.network_name_heading {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fefefe;
+    align-self: flex-start; /* Left align the HBO text */
+}
+
+.network_divider {
+    
+        width: 100%;
+        height: 1px;
+        background-color: #ffffff;
+        margin: 10px 10px; /* Space around the divider */
+}
+.network_liked {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Indicate clickable area */
+}
+
+.heart {
+    margin-left: 10px;
+    transition: fill 0.3s ease;
+}

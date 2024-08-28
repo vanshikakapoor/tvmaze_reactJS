@@ -1,0 +1,47 @@
+.filter_submit_button {
+    background-color: #3c948b;
+    color: #fff;
+    transition: background-color .25s ease-out, color .25s ease-out;
+    border: none;             /* Remove default border */
+    padding: 10px 20px;       /* Vertical and horizontal padding */
+    border-radius: 50px;      /* Large border-radius for capsule shape */
+    font-size: 16px;          /* Font size */
+    cursor: pointer;          /* Pointer cursor on hover */
+    text-align: center;       /* Center the text */
+    display: inline-block;    /* Allow the button to fit its content */
+}
+
+.select-container {
+    position: relative;
+    width: 100%;
+}
+
+.select-container select {
+    appearance: none; /* Removes default styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px; /* Space for arrow */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Down arrow */
+.select-container::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #555;
+}
+
+.help-block {
+    height: 35px;
+}
+
+.Header_filler {
+    height: 85px;
+}

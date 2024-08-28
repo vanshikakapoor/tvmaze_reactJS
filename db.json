@@ -1,0 +1,155 @@
+{
+    "networks": [
+        {
+            "id": 1,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/396/990250.jpg",
+            "channel_name": "HBO",
+            "like": 100
+        },
+        {
+            "id": 2,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/381/953333.jpg",
+            "channel_name": "CBS",
+            "like": 800
+        },
+        {
+            "id": 3,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/988240.jpg",
+            "channel_name": "The CW",
+            "like": 750
+        },
+        {
+            "id": 4,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/507/1269885.jpg",
+            "channel_name": "BBC One",
+            "like": 760
+        },
+        {
+            "id": 5,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/988237.jpg",
+            "channel_name": "ABC",
+            "like": 230
+
+        },
+        {
+            "id": 6,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/988241.jpg",
+            "channel_name": "NBC",
+            "like": 310
+        },
+        {
+            "id": 7,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/394/987386.jpg",
+            "channel_name": "Adult Swim",
+            "like": 340
+        },
+        {
+            "id": 8,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/987854.jpg",
+            "channel_name": "Fox",
+            "like": 467
+        },
+        {
+            "id": 9,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/432/1080338.jpg",
+            "channel_name": "ITV1",
+            "like": 65
+        },
+        {
+            "id": 10,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/988239.jpg",
+            "channel_name": "Show Time",
+            "like": 78
+        },
+        {
+            "id": 11,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/381/953534.jpg",
+            "channel_name": "Channel 5",
+            "like": 17
+        },
+        {
+            "id": 12,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/394/987313.jpg",
+            "channel_name": "Nickelodeon",
+            "like": 7000
+        },
+        {
+            "id": 13,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/179/448311.jpg",
+            "channel_name": "Network 10",
+            "like": 650
+        },
+        {
+            "id": 14,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/394/987392.jpg",
+            "channel_name": "AMC UK",
+            "like": 30
+        },
+        {
+            "id": 15,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/413/1034405.jpg",
+            "channel_name": "BBC Two",
+            "like": 10
+        },
+        {
+            "id": 16,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/987766.jpg",
+            "channel_name": "Seven Network",
+            "like": 97
+        },
+        {
+            "id": 17,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/404/1010840.jpg",
+            "channel_name": "Channel 4",
+            "like": 46
+        },
+        {
+            "id": 18,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/445/1114558.jpg",
+            "channel_name": "Freeform",
+            "like": 30
+        },
+        {
+            "id": 19,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/987838.jpg",
+            "channel_name": "RTÉ ONE",
+            "like": 60
+        },
+        {
+            "id": 20,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/56/140368.jpg",
+            "channel_name": "Nine Network",
+            "like": 30
+        },
+        {
+            "id": 21,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/988377.jpg",
+            "channel_name": "ABC",
+            "like": 560
+        },
+        {
+            "id": 22,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/512/1281838.jpg",
+            "channel_name": "Discovery",
+            "like": 670
+        },
+        {
+            "id": 23,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/497/1244146.jpg",
+            "channel_name": "Sky Open",
+            "like": 10
+        },
+        {
+            "id": 24,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/395/988249.jpg",
+            "channel_name": "MTV",
+            "like": 500
+        },
+        {
+            "id": 25,
+            "ImageLink": "https://static.tvmaze.com/uploads/images/medium_landscape/128/320393.jpg",
+            "channel_name": "TRUE CRIME XTRA",
+            "like": 40
+        }
+    ]
+}

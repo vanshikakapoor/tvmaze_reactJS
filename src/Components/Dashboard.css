@@ -1,0 +1,44 @@
+.Network-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.network_dashboard {
+    width: 70%;
+    margin-right: 20px; /* Reduce the margin to decrease space */
+    margin-left: 100px;
+}
+
+.Dashboard_layout {
+    display: flex;
+}
+.Network-heading {
+    font-size: 50px;
+    margin: 0 30px;
+    margin-top: 50px;
+    font-weight: 100;
+    width: auto;
+}
+.dropdown-container {
+    display: flex;
+    flex-direction: column; /* Stack the dropdowns vertically */
+    gap: 10px; /* Add space between the dropdowns */
+    width: 200px; /* Adjust the width as needed */
+    margin: 20px; /* Remove side margins to reduce horizontal space */
+    margin-top: 40px;
+    align-items: flex-start; /* Ensure dropdowns are left-aligned */
+}
+
+.dropdown {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,85 @@
+.option_bar {
+    background-color: #3c948b;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the grid layout on larger screens */
+.subpart {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.options .nav-link{
+    margin-left: 50px;
+    height: 35px;
+    font-size: 18px;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    color: #fefefe !important; /* Force white text color */
+    font-weight: 300;
+    padding: 0 10px; /* Combined padding for left and right */
+}
+
+.options:hover {
+    cursor: pointer;
+    background-color: #3f3f3f;
+}
+
+/* Navbar toggler styles for small screens */
+.navbar-toggler {
+    background-color: #3c948b; /* Match the background color */
+    border: none;
+    padding: 5px 10px;
+    margin-left: auto;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28254, 254, 254, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Style the collapsible navbar when it's expanded */
+@media (min-width: 992px) {
+    .navbar-collapse {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .navbar-toggler {
+        display: none; /* Hide toggler on larger screens */
+    }
+}
+
+/* Additional adjustments for small screens */
+@media (max-width: 991.98px) {
+    .option_bar {
+        padding: 5px 10px; /* Reduce padding for smaller screens */
+    }
+
+    .options {
+        font-size: 16px; /* Slightly smaller font size on small screens */
+        padding: 5px 10px; /* Adjust padding */
+        height: auto; /* Adjust height for smaller screens */
+        color: #fefefe !important; /* Force white text color */
+    }
+
+    .subpart {
+        display: block; /* Block layout for small screens */
+        width: 100%;
+        text-align: center; /* Center text in small screens */
+    }
+}

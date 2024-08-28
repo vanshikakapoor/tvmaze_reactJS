@@ -1,0 +1,16 @@
+.header {
+    background-color: #3f3f3f;
+    padding: auto;
+    margin: 0px;
+   
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    max-height: 50px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
